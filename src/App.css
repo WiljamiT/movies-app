@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.movieItems {
+  background: #030c40;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.Movie {
+  height: 419px;
+  width: 650px;
+  float: left;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #040f50;
+}
+.Movie:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02, 1.02);
+}
+
+.MovieTitle {
+  color: #fff;
+  text-align: center;
+}
+
+.MovieText {
+  color: #fff;
+  text-shadow: 1px 1px 1px 2px black;
+}
+
+.GenresText {
+  color: #fff;
+}
+
+.VideosText {
+  color: #fff;
+}
+
+.Movie {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: auto;
+  align-items: space-between;
+  justify-content: space-between;
+  display: flex;
+}
+
+img {
+  width: 300px;
+  height: 100%;
+  float: left;
+  border-radius: 7px;
+}
+
+.infos {
+  width: 300px;
+  float: left;
+  align-items: space-between;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  background: #030c40;
+}
+
+.App h1 {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
